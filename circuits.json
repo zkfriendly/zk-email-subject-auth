@@ -3,5 +3,10 @@
     "file": "email_circuit",
     "template": "EmailCircuit",
     "params": [121, 17, 1024, 512]
+  },
+  "mock_email_circuit": {
+    "file": "mock_email_circuit",
+    "template": "MockEmailCircuit",
+    "params": [121, 17, 1024, 512]
   }
 }
