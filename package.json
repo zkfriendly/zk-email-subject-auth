@@ -8,8 +8,9 @@
     "setup": "NODE_OPTIONS=--max_old_space_size=8192 npx circomkit setup",
     "vkey": "NODE_OPTIONS=--max_old_space_size=8192 npx circomkit vkey",
     "prove": "NODE_OPTIONS=--max_old_space_size=8192 npx circomkit prove",
+    "mock": "yarn compile mock_email_circuit &&yarn setup mock_email_circuit && yarn prove mock_email_circuit",
     "test": "npx mocha"
-  },
+    },
   "dependencies": {
     "@types/circomlibjs": "^0.1.6",
     "@zk-email/circuits": "^6.1.5",
