@@ -3,4 +3,4 @@ pragma circom 2.1.2;
 
 include "../mock_email_circuit.circom";
 
-component main = MockEmailCircuit(121, 17, 1024, 512);
+component main = MockEmailCircuit();
